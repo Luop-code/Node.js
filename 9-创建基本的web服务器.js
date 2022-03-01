@@ -10,6 +10,6 @@ sever.on('request', function (req, res) {
 })
 
 //4-启动服务器
-sever.listen(8080, function () {
-    console.log('sever running at http://127.0.0.1:8080');
+sever.listen(80, function () {
+    console.log('sever running at http://127.0.0.1:80');
 })
