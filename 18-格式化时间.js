@@ -9,7 +9,7 @@ function dateFormat(dtStr) {
     const min = padZero(dt.getMinutes())
     const sec = padZero(dt.getSeconds())
 
-    return `${y}-${m}-${d}-${hour}-${min}-${sec}`
+    return `${y}-${m}-${d} ${hour}:${min}:${sec}`
 }
 
 //定义补零的函数
