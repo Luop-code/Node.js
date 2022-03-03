@@ -17,5 +17,3 @@ exports.age = 20
 exports.sayHi = function () {
     console.log('hello');
 }
-
-//
